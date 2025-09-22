@@ -1,0 +1,75 @@
+.casa {
+    width: 600px;
+    height: 300px;
+    
+    margin: auto;
+
+    display: grid;
+    grid-column: 75% 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cuarto_segundo_nivel {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventana {
+    background-color: skyblue;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.techo {
+    
+    display: flex;
+    align-items: end;
+}
+
+.pared {
+    background-image: url("../assets/pared.jpg");
+    width: 100px;
+    height: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
+.pared div {
+    border: 1px solid black;
+}
+
+
+.entrada {
+    background-image: url("../assets/pared2.jpg");
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.puerta {
+    background-image: url("../assets/madera.jpg");
+    background-size: 150%;
+    background-color: brown;
+    width: 75px;
+    height: 120px;
+}
+
+.garage {
+    background-image: url("../assets/pared.jpg");
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.porton{ 
+    background-image: url("../assets/p_1000719957.avif");
+    background-size: 100%;
+    width: 90%;
+    height: 80%;
+    background-color: black;
+}
